@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
           title: Text("Replacing Row with ListItem"),
         ),
         body: Container(
-          // TODO: Try changing this Container to ListView
           child: Card(
             child: Column(children: [
+              // TODO: Try changing Row to ListTile
               Row(children: [
                 Icon(Icons.restaurant_menu),
                 Text('162 Charleston Road'),
